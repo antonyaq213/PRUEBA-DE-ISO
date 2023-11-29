@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antony Apuntes de ISO</title>
+    <style>
+body{background-color: gainsboro;}
+p{font-family: arial;
+    text-align: left;
+font-size: 20px;
+
+}
+.titulo{color: grey;}
+
+td, th {
+        border: 1px solid #ccc;
+    }
+ .imagen{text-align: right;
+position: -webkit-sticky;
+position: sticky;
+top:auto;
+padding: 5px;
+margin-top:auto;
+float: right;
+margin: 10px;
+border-radius: 10px;
+left: 170px;
+}
+.titulo{font-size: 30px;
+color: white;
+background-color: rgba(0, 0, 0, 0.714);
+width: 22%;
+text-align: center;
+margin: auto;
+border-radius: 10px;
+border-style: solid;
+border-color: red;
+}
+.menu{position: -webkit-sticky;
+position: sticky;
+top: 5px;
+padding: 5px;
+margin-top: auto;
+
+width: 4%;
+float:right;
+margin: 10px;
+
+}
+.fechas{background-color: rgba(0, 0, 0, 0.75);
+width: 15%;
+float:left;
+padding: auto;
+margin-top: auto;
+border-radius: 10px;
+border-style: solid;
+border-color: red;
+color: white;
+}
+
+
+a{color: white;}
+
+.footer{font-size: 30px;
+color: white;
+background-color: rgba(0, 0, 0, 0.714);
+width: 4%;
+text-align: center;
+margin: auto;
+border-radius: 10px;
+border-style: solid;
+border-color: red;
+}
+.dropdown{display: inline-block;
+position: relative;}
+.dropdown-content{display: none;
+position: absolute;
+width: 100%;
+overflow: auto;
+box-shadow: 0px 8px 16px rgba(0,0,0,0.2);}
+.dropdown:hover .dropdown-content{display: block;}
+.dropdown-content a{display: block; 
+color: #000000;
+padding: 5px;
+text-decoration: none;}
+.dropdown-content a:hover{color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.714);}
+    </style>
+</head>
+<body>
+    <nav class="menu">
+ <div class="dropdown">
+<button style="background-color:rgba(0, 0, 0, 0.714);;
+border-radius: 10px;
+border-style: solid;
+border-color: red;
+color: white;
+font-size: 18px;
+">Fechas</button>
+<div class="dropdown-content">
+    <a href="#27/11">27/11</a> 
+    <a href="#28/11">28/11</a> 
+    <a href="#29/11">29/11</a> 
+</div>
+ </div>
+</nav>
+    <div class="imagen"> <img src=" https://www.gifmaniacos.es/wp-content/uploads/2019/05/gatitos-kawaii-gifmaniacos.es-14.gif" height="150px"
+        width="150px" > </div>
+<section> 
+    <h1 class="titulo">Codigo avanzado ubuntu</h1>
+    <br>
+    <h1 id="27/11" class="fechas">Clases del dia 27/11</h1>
+ <p>
+    <br><br>
+stat + fichero: nos proporciona la informacion del tamaño, bloques, fecha de modificacion, numero de usuario ect.
+</p>
+
+<p> stat * | less: la misma informacion que stat solo pero empaginado para cada fichero </p>
+
+<p>date +% y una letra por ejemplo, date +%a : nos proporciona el dia de la semana en tres caracteres, date +%A : nos proporciona el dia de la semana completo</p>
+<p>date +%b : nos proporciona mes en tres caracteres, date +%B : nos da el mes completo</p>
+<p>date +%c : nos proporciona las fecha igual que date pero sin la zona horaria</p>
+<p>date +%d : nos proporciona la fecha del dia, date +%D : nos proporciona la fecha completa DIA,MES,AÑO</p>
+<p>date +%F : nos proporciona la fecha ordenada por año, mes, dia para evitar que se mezclen los dias</p>
+<p>date +%g : nos proporciona el año en dos caracteres</p>
+<p>date +%G : nos proporciona el año en 4 caracteres</p>
+<p>date +%T : nos proporciona solo la hora </p>
+<p>date +%w : nos proporciona el dia de la semana en numeros</p>
+<p>date +%W : nos proporciona el numero de semana del año</p>
+<p>date +Año:%G-Hora:%T : esto sirve para mezclar texto con formato y nos proporciona la fecha del año y la hora</p>
+<p>touch +fichero_`date +%F`.txt : nos crea un fichero con el nombre + la fecha actual en la que se creo</p>
+<p>info date : Nos proporciona la informacion completa sobre el comando date y sus distintos formato.</p>
+<p>date +%m : nos proporciona el dia del mes</p>
+<p> date +%M : </p>
+<p> echo hoy es `date` : nos proporciona el mensaje "hoy" junto a la fecha,hora, zona horaria</p>
+<p>echo -e "\t\thoy es `date`"  : cuando utilizamos los signos de escape \\ debemos utilizar comillas dobles "</p>
+<br>
+
+<article id="28/11" ></article>
+<h1 class="fechas">Clases del dia 28/11</h1>
+<br> <br>
+<p>FALTAN APUNTES LUEGO ACTUALIZARE
+
+<article id="29/11" ></article>
+
+
+<h1 class="fechas">Clases del dia 29/11</h1>
+<br><br>
+<h2>Niveles de ejecucion</h2>
+<table>
+    <tr>
+        <td>Niveles de ejecucion</td>
+        <td>Nombre</td>
+        <td>Descripcion</td>
+    </tr>
+    <tr>
+        <td> 0</td>
+        <td> </td>
+        <td> </td>
+   
+    </tr>
+    <tr>
+        <td> 1</td>
+        <td> </td>
+        <td> </td>
+
+    </tr>
+<tr>
+    <td>2</td>
+    <td></td>
+
+
+</tr>
+<tr>
+    <td>3</td>
+    <td></td>
+</tr>
+<tr>
+    <td>4</td>
+    <td></td>
+</tr>
+<tr>
+    <td>5</td>
+    <td></td>
+</tr>
+<tr>
+    <td>6</td>
+    <td></td>
+</tr>
+</table>
+<p>runlevel :este comando se utiliza por compatibilidad</p>
+<p>systemctl get-default : el comando systemctl permiten gestionar servicios </p>
+<p>sudo systemctl set-default multi-user.target : </p>
+<p>shutdown -h now</p>
+<p>shutdown -h 22:15 "El servidor se apagara a las 22:15"</p>
+<p>shutdown -h now :</p>
+<p>shutdown -r now :</p>
+<p>sudo shutdown -r +10 "se reiniciara en 10 minutos"</p>
+<p>shutdown -c </p>
+
+
+<p>reboot : reinicia el equipo sin esperas</p>
+<p>halt : cierra el software sin esperas </p>
+<p>poweroff : apague el equipo sin esperas</p>
+<p>logout : cierra sesion=exit</p>
+<p>last reboot : lista los ultimos reboot</p>
+<p>last -5 reboot : lista los 5 ultimos reboot</p>
+<p>last < usuario>  : lista las conexiones que tiene y tuvop el usuario</p>
+<p>lastb : lista los intentos de </p>
+<p>uptime : tiempo de actividad del sistema</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<hr>
+<footer>
+<div class="footer">
+<a href="https://www.edu.xunta.gal/centros/iesxulianmagarinos/aulavirtual/course/view.php?id=659&section=1#tabs-tree-start">ISO</a>
+</div>
+</footer>
+</body>
+</html>
